@@ -1,4 +1,15 @@
- ##Write a program to take bike petrol level as input from user.
- ## If 0, print "Push maar bhai, petrol khatam 😭", else "Chal bhai, ride pe chalte hain 🏍️".
+"""Question: Kolkata Metro Fare Calculator - 
+Create a program that calculates metro fare based on distance traveled. For distances up to 5 km, fare is ₹10. For distances above 5 km, fare is ₹15.
 
- bike_contol_level = input
+Expected Output Format:
+Display the fare amount with appropriate message."""
+
+
+distance =  int(input(" enter distance you travelled : "))
+if(distance<=5):
+    fare = 10
+    print(f" Fare for {distance} km: {fare}") 
+
+else:
+    fare = 20
+    print(f"fare for {distance}km: {fare}")
